@@ -36,6 +36,15 @@ fieldset.fieldset-buttons legend .ui-buttonset {
   text-align: right;
   width: 100px;
 }
+.smallform .form-label {
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 7px 0 0 0;
+  text-align: right;
+  width: 40px;
+}
 .form .form-label small {
   color: #666666;
   display: block;
@@ -62,6 +71,10 @@ fieldset.fieldset-buttons legend .ui-buttonset {
   line-height: 15px;
   margin: 2px 0 15px 110px;
 }
+.smallform .form-input {
+  line-height: 15px;
+  margin: 2px 0 15px 60px;
+}
 .form .form-textarea {
   line-height: 1;
 }
@@ -80,6 +93,22 @@ fieldset.fieldset-buttons legend .ui-buttonset {
 .form .form-input .radiogroup {
   width: 100%;
   max-width: 800px;
+}
+.smallform .form-input textarea,
+.smallform .form-input input[type=text],
+.smallform .form-input input[type=password],
+.smallform .form-input input[type=email],
+.smallform .form-input input[type=url],
+.smallform .form-input input[type=date],
+.smallform .form-input input[type=number],
+.smallform .form-input input[type=time],
+.smallform .form-input input[type=date],
+.smallform .form-input input.date,
+.smallform .form-input .selector,
+.smallform .form-input .uploader,
+.smallform .form-input .radiogroup {
+  width: 100%;
+  max-width: 300px;
 }
 .form .form-input textarea {
   position: relative;
