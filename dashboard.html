@@ -14,7 +14,7 @@
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, width=device-width">
 <!-- iPad End -->
 
-<title>Admin Mockup</title>
+<title>Admin Mockup - DI</title>
 
 <link rel="shortcut icon" href="favicon.ico">
 
@@ -66,7 +66,7 @@
 
     <div id="wrapper">
         <header>
-            <h1>Admin Mockup</h1>
+            <h1>Admin Mockup - Initial</h1>
             <nav>
 				<ul id="main-navigation" class="clearfix"> 
 					<li class="dropdown active"> 
@@ -184,10 +184,22 @@
                         <div class="message info">
                             <h3>System Messages</h3> 
                             <p> 
-                                Lorem ipsum dolor sit amet
+                                System alert messages may be implemented in a variety of fashions.  They may include any type of content and span a variety of widths, conditional of displayed content.
                             </p> 
                         </div>
                     </section> 
+
+                    <section class="grid_6"> 
+                        <div class="message success">
+                            <p>System Message for SUCCESS</p> 
+                        </div>
+                    </section> 
+
+                    <section class="grid_6"> 
+                        <div class="message error">
+                            <p>System Message for ERROR</p> 
+                        </div>
+                    </section>
                 
 
 
@@ -424,8 +436,19 @@
                                 </tbody> 
  
                             </table>
+                            <br>
+                            <ul class="pagination">
+                                <li><a href="dashboard.html#">First</a></li>
+                                <li><a href="dashboard.html#">&laquo;</a></li>
+                                <li class="current"><a href="dashboard.html#">1</a></li>
+                                <li><a href="dashboard.html#">2</a></li>
+                                <li><a href="dashboard.html#">3</a></li>
+                                <li><a href="dashboard.html#">4</a></li>
+                                <li><a href="dashboard.html#">&raquo;</a></li>
+                                <li><a href="dashboard.html#">Last</a></li>
+                            </ul>
 
-                            <p class="actionbutton"><button type="submit">view all orders</button></p>
+                            <p class="actionbuttoninline"><button type="submit">view all orders</button></p>
                             
                         </section>
                         
@@ -435,11 +458,12 @@
                     <section class="portlet grid_6 leading"> 
 
                         <header>
-                            <h2>Profits, Expenses and Sales - <a href="http://www.jqplot.com/tests/" target="_blank" rel="nofollow">More Examples</a></h2>
+                            <h2>Quarterly Reports</h2>
                         </header>
 
                         <section>
                             <div class="jqPlot" id="chart2" style="width:100%;height:160px;"></div>
+                            <p class="actionbutton"><button type="submit">view complete report</button></p>
                         </section>
 
                     </section>
@@ -458,7 +482,7 @@
                     <section class="portlet grid_6 leading"> 
 
                         <header>
-                            <h2>Sales Statistics</h2>
+                            <h2>New Products</h2>
                         </header>
 
                         <section>
@@ -466,49 +490,182 @@
  
                                 <tbody> 
  
-                                    <tr> 
+                                    <tr class="bold"> 
  
-                                        <td>Signups This Month</td> 
+                                        <td>Product SKU</td> 
  
-                                        <td class="ar"><a href="dashboard.html#">30</a></td> 
+                                        <td class="ar">Product Name</td> 
  
-                                        <td class="ar"></td> 
- 
-                                    </tr> 
- 
-                                    <tr> 
- 
-                                        <td>Sales This Month</td> 
- 
-                                        <td class="ar"><a href="dashboard.html#">25</a></td> 
- 
-                                        <td class="ar">1,248.75 $</td> 
+                                        <td class="ar">Product Price</td> 
+
+                                        <td class="ar">Actions</td> 
  
                                     </tr> 
- 
+
                                     <tr> 
  
-                                        <td>Signups This Year</td> 
+                                        <td>354663</td> 
  
-                                        <td class="ar"><a href="dashboard.html#">30</a></td> 
+                                        <td class="ar">Home Theater</td> 
  
-                                        <td class="ar"></td> 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
  
                                     </tr> 
- 
+
                                     <tr> 
  
-                                        <td>Sales This Year</td> 
+                                        <td>567884</td> 
  
-                                        <td class="ar"><a href="dashboard.html#">25</a></td> 
+                                        <td class="ar">Landscape Series</td> 
  
-                                        <td class="ar">1,248.75 $</td> 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
  
                                     </tr> 
+
+                                    <tr> 
+ 
+                                        <td>924560</td> 
+ 
+                                        <td class="ar">Architectural Series</td> 
+ 
+                                        <td class="ar">$...</td>  
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>924560</td> 
+ 
+                                        <td class="ar">Invisible Series</td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>924560</td> 
+ 
+                                        <td class="ar">SONARRAY</td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    
  
                                 </tbody> 
  
                             </table>
+
+                            <p class="actionbutton"><button type="submit">view all products</button></p>
+                            
+                        </section>
+
+                    </section> 
+
+
+
+                    <section class="portlet grid_6 leading"> 
+
+                        <header>
+                            <h2>Product Materials</h2>
+                        </header>
+
+                        <section>
+                            <table class="full"> 
+ 
+                                <tbody> 
+ 
+                                    <tr class="bold"> 
+ 
+                                        <td>Material SKU</td> 
+ 
+                                        <td class="ar">Material Name</td> 
+ 
+                                        <td class="ar">Material Price</td> 
+
+                                        <td class="ar">Actions</td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>354663</td> 
+ 
+                                        <td class="ar">Home Theater</td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>567884</td> 
+ 
+                                        <td class="ar">Landscape Series</td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>924560</td> 
+ 
+                                        <td class="ar">Architectural Series</td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>924560</td> 
+ 
+                                        <td class="ar">Invisible Series</td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>924560</td> 
+ 
+                                        <td class="ar">SONARRAY</td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+ 
+                                    </tr> 
+
+                                    
+ 
+                                </tbody> 
+ 
+                            </table>
+
+                            <p class="actionbutton"><button type="submit">view all product materials</button></p>
                             
                         </section>
 
@@ -517,7 +674,143 @@
                     <div class="clear"></div>
 
                     
+
+
+
+
+                    <section class="portlet grid_9 leading"> 
+
+                        <header>
+                            <h2>Invoices</h2>
+                        </header>
+
+                        <section>
+                            <table class="full"> 
  
+                                <tbody> 
+ 
+                                    <tr class="bold"> 
+ 
+                                        <td>Order ID</td> 
+
+                                        <td class="ar">Number of Items</td> 
+ 
+                                        <td class="ar">Order Date</td> 
+ 
+                                        <td class="ar">Amount</td> 
+
+                                        <td class="ar">Status</td> 
+
+                                        <td class="ar">Actions</td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>354663</td> 
+
+                                        <td class="ar">243</td> 
+ 
+                                        <td class="ar">Sep 26, 2014 </td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar">unpaid</td> 
+
+                                        <td class="ar"><a href="">view and pay now</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>354663</td> 
+
+                                        <td class="ar">15</td> 
+ 
+                                        <td class="ar">Sep 26, 2014 </td> 
+ 
+                                        <td class="ar">$...</td>
+
+                                        <td class="ar">partial</td>  
+
+                                        <td class="ar"><a href="">view and complete</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>354663</td> 
+
+                                        <td class="ar">125</td> 
+ 
+                                        <td class="ar">Sep 26, 2014 </td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar">paid</td> 
+
+                                        <td class="ar"><a href="">view</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>354663</td> 
+
+                                        <td class="ar">27</td> 
+ 
+                                        <td class="ar">Sep 26, 2014 </td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar">paid</td> 
+
+                                        <td class="ar"><a href="">view</a></td> 
+ 
+                                    </tr> 
+
+                                    <tr> 
+ 
+                                        <td>354663</td> 
+
+                                        <td class="ar">596</td> 
+ 
+                                        <td class="ar">Sep 26, 2014 </td> 
+ 
+                                        <td class="ar">$...</td> 
+
+                                        <td class="ar">paid</td> 
+
+                                        <td class="ar"><a href="">view</a></td> 
+ 
+                                    </tr> 
+
+                                    
+ 
+                                </tbody> 
+ 
+                            </table>
+
+                            <p class="actionbutton"><button type="submit">view all invoices</button></p>
+                            
+                        </section>
+
+                    </section> 
+
+
+
+                    <section class="portlet grid_3 leading"> 
+
+                        <header>
+                            <h2>Wizzybang</h2>
+                        </header>
+
+                        <section>
+                            <div class="jqPlot" id="chart3" style="width:100%;height:200px;"></div>
+                            <p class="actionbutton"><button type="submit">view complete report</button></p>
+                        </section>
+
+                    </section> 
                      
                     
                     <div class="clear"></div>
@@ -827,6 +1120,7 @@
     <script type="text/javascript" src="lib/jqplot/jquery.jqplot.min.js"></script>
     <script type="text/javascript" src="lib/jqplot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
     <script type="text/javascript" src="lib/jqplot/plugins/jqplot.barRenderer.min.js"></script>
+    <script type="text/javascript" src="lib/jqplot/plugins/jqplot.pieRenderer.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
         var line1 = [1,4, 9, 16];
@@ -853,6 +1147,30 @@
             }
         });
     });
+
+    $(document).ready(function(){
+        var data = [
+        ['Heavy Industry', 12],['Retail', 9], ['Light Industry', 14], 
+        ['Out of home', 16],['Commuting', 7], ['Orientation', 9]
+        ];
+        var plot2 = jQuery.jqplot ('chart3', [data], 
+        {
+          seriesDefaults: {
+            renderer: jQuery.jqplot.PieRenderer, 
+            rendererOptions: {
+              // Turn off filling of slices.
+              fill: false,
+              showDataLabels: true, 
+              // Add a margin to seperate the slices.
+              sliceMargin: 4, 
+              // stroke the slices with a little thicker line.
+              lineWidth: 5
+            }
+          }, 
+          legend: { show:false, location: 'e' }
+        }
+        );
+        });
     </script>
     <!-- jQplot SETUP END -->
 </body>
