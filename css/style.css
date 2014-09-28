@@ -564,6 +564,26 @@ body.login {
     height: 25px;
     font-size:12px;
 }
+.boldtext {
+    font-weight: 700;
+}
+.boldtext a {
+    font-weight:300 !important;
+}
+
+.messages tr td {
+    padding:3px 0;
+}
+
+td.leftthirty {
+    padding-left:30px !important;
+}
+td.wide120 {
+    min-width:120px !important;
+}
+td.wide65 {
+    min-width:65px !important;
+}
 
 p.actionbutton {
     text-align:right;
