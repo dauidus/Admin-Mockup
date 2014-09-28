@@ -30,8 +30,9 @@
 <link rel="stylesheet" media="screen" href="css/reset.css" />
 <link rel="stylesheet" media="screen" href="css/grids.css" />
 <link rel="stylesheet" media="screen" href="css/style.css" />
+<link rel="stylesheet" media="screen" href="css/forms.css" />
 <link rel="stylesheet" media="screen" href="css/jquery.uniform.css" />
-<link rel="stylesheet" media="screen" href="css/themes/lightblue/style.css" />
+<link rel="stylesheet" media="screen" href="css/themes/gray/style.css" />
 
 <!-- jQplot CSS -->
 <link rel="stylesheet" media="screen" href="lib/jqplot/jquery.jqplot.min.css" />
@@ -66,7 +67,7 @@
 
     <div id="wrapper">
         <header>
-            <h1>Distributor Dashboard</h1>
+            <img src="images/logo.png"><h1>Distributor Dashboard</h1>
             <nav>
 				<ul id="main-navigation" class="clearfix"> 
 					<li class="dropdown active"> 
@@ -173,27 +174,25 @@
             
 
             <section>
-                <header class="container_12 clearfix">
+                <br>
 
-                </header>
                 <section class="container_12 clearfix">
                 
                     <section class="grid_12"> 
                         <div class="message info">
-                            <h3>System Messages</h3> 
                             <p> 
                                 System alert messages may be implemented in a variety of fashions.  They may include any type of content and span a variety of widths, conditional of displayed content.
                             </p> 
                         </div>
                     </section> 
 
-                    <section class="grid_6"> 
+                    <section class="grid_4"> 
                         <div class="message success">
                             <p>System Message for SUCCESS</p> 
                         </div>
                     </section> 
 
-                    <section class="grid_6"> 
+                    <section class="grid_8"> 
                         <div class="message error">
                             <p>System Message for ERROR</p> 
                         </div>
@@ -222,6 +221,10 @@
  
                                         <td class="ar">Amount</td> 
 
+                                        <td class="ar">Item Quantity</td> 
+
+                                        <td class="ar">Status</td> 
+
                                         <td class="ar">Actions</td> 
  
                                     </tr> 
@@ -234,6 +237,10 @@
                                         <td class="ar">Sep 30, 2014</td> 
  
                                         <td class="ar">$1,498.50</td> 
+
+                                        <td class="ar">250</td> 
+
+                                        <td class="ar">Pending Confirmation</td> 
 
                                         <td class="ar"><a href="">track</a> | <a href="">view</a> | <a href="">reorder</a></td> 
  
@@ -248,6 +255,10 @@
  
                                         <td class="ar">$1,248.75</td> 
 
+                                        <td class="ar">100</td> 
+
+                                        <td class="ar">Awaiting Carrier</td> 
+
                                         <td class="ar"><a href="">track</a> | <a href="">view</a> | <a href="">reorder</a></td> 
  
                                     </tr> 
@@ -261,6 +272,10 @@
  
                                         <td class="ar">$249.75</td> 
 
+                                        <td class="ar">125</td> 
+
+                                        <td class="ar">In Transit</td> 
+
                                         <td class="ar"><a href="">track</a> | <a href="">view</a> | <a href="">reorder</a></td> 
  
                                     </tr> 
@@ -273,6 +288,10 @@
                                         <td class="ar">Sep 30, 2014</td> 
  
                                         <td class="ar">$0.00</td> 
+
+                                        <td class="ar">2000</td> 
+
+                                        <td class="ar">In Transit</td> 
 
                                         <td class="ar"><a href="">track</a> | <a href="">view</a> | <a href="">reorder</a></td> 
  
@@ -508,7 +527,7 @@
  
                                         <td class="ar">$...</td> 
 
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a> | <a href=""><img src="images/iconpdf.png"></a></td> 
  
                                     </tr> 
 
@@ -520,7 +539,7 @@
  
                                         <td class="ar">$...</td> 
 
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a> | <a href=""><img src="images/iconpdf.png"></a></td> 
  
                                     </tr> 
 
@@ -532,7 +551,7 @@
  
                                         <td class="ar">$...</td>  
 
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a> | <a href=""><img src="images/iconpdf.png"></a></td> 
  
                                     </tr> 
 
@@ -544,7 +563,7 @@
  
                                         <td class="ar">$...</td> 
 
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a> | <a href=""><img src="images/iconpdf.png"></a></td> 
  
                                     </tr> 
 
@@ -556,7 +575,7 @@
  
                                         <td class="ar">$...</td> 
 
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
+                                        <td class="ar"><a href="">view</a> | <a href="">order</a> | <a href=""><img src="images/iconpdf.png"></a></td> 
  
                                     </tr> 
 
@@ -587,78 +606,18 @@
  
                                     <tr class="bold"> 
  
-                                        <td>Material SKU</td> 
- 
-                                        <td class="ar">Material Name</td> 
- 
-                                        <td class="ar">Material Price</td> 
+                                        <td><img src="images/pdfbig.png"></td> 
 
-                                        <td class="ar">Actions</td> 
+                                        <td><img src="images/pdfbig.png"></td> 
+
+                                        <td><img src="images/pdfbig.png"></td> 
+
+                                        <td><img src="images/pdfbig.png"></td> 
+
+                                        <td><img src="images/pdfbig.png"></td> 
  
                                     </tr> 
 
-                                    <tr> 
- 
-                                        <td>354663</td> 
- 
-                                        <td class="ar">Home Theater</td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>567884</td> 
- 
-                                        <td class="ar">Landscape Series</td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>924560</td> 
- 
-                                        <td class="ar">Architectural Series</td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>924560</td> 
- 
-                                        <td class="ar">Invisible Series</td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>924560</td> 
- 
-                                        <td class="ar">SONARRAY</td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar"><a href="">view</a> | <a href="">order</a></td> 
- 
-                                    </tr> 
-
-                                    
- 
                                 </tbody> 
  
                             </table>
@@ -671,274 +630,98 @@
  
                     <div class="clear"></div>
 
-                    
 
-
-
-
-                    <section class="portlet grid_9 leading"> 
-
-                        <header>
-                            <h2>Invoices</h2>
-                        </header>
-
-                        <section>
-                            <table class="full"> 
- 
-                                <tbody> 
- 
-                                    <tr class="bold"> 
- 
-                                        <td>Order ID</td> 
-
-                                        <td class="ar">Number of Items</td> 
- 
-                                        <td class="ar">Order Date</td> 
- 
-                                        <td class="ar">Amount</td> 
-
-                                        <td class="ar">Status</td> 
-
-                                        <td class="ar">Actions</td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>354663</td> 
-
-                                        <td class="ar">243</td> 
- 
-                                        <td class="ar">Sep 26, 2014 </td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar">unpaid</td> 
-
-                                        <td class="ar"><a href="">view and pay now</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>354663</td> 
-
-                                        <td class="ar">15</td> 
- 
-                                        <td class="ar">Sep 26, 2014 </td> 
- 
-                                        <td class="ar">$...</td>
-
-                                        <td class="ar">partial</td>  
-
-                                        <td class="ar"><a href="">view and complete</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>354663</td> 
-
-                                        <td class="ar">125</td> 
- 
-                                        <td class="ar">Sep 26, 2014 </td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar">paid</td> 
-
-                                        <td class="ar"><a href="">view</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>354663</td> 
-
-                                        <td class="ar">27</td> 
- 
-                                        <td class="ar">Sep 26, 2014 </td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar">paid</td> 
-
-                                        <td class="ar"><a href="">view</a></td> 
- 
-                                    </tr> 
-
-                                    <tr> 
- 
-                                        <td>354663</td> 
-
-                                        <td class="ar">596</td> 
- 
-                                        <td class="ar">Sep 26, 2014 </td> 
- 
-                                        <td class="ar">$...</td> 
-
-                                        <td class="ar">paid</td> 
-
-                                        <td class="ar"><a href="">view</a></td> 
- 
-                                    </tr> 
-
-                                    
- 
-                                </tbody> 
- 
-                            </table>
-
-                            <p class="actionbutton"><button type="submit">view all invoices</button></p>
-                            
-                        </section>
-
-                    </section> 
-
-
-
-                    <section class="portlet grid_3 leading"> 
-
-                        <header>
-                            <h2>Wizzybang</h2>
-                        </header>
-
-                        <section>
-                            <div class="jqPlot" id="chart3" style="width:100%;height:200px;"></div>
-                            <p class="actionbutton"><button type="submit">view complete report</button></p>
-                        </section>
-
-                    </section> 
-                     
-                    
-                    <div class="clear"></div>
                 
-                    <section class="tabs grid_12 leading">
-                        <ul class="clearfix">
-                            <li><a href="dashboard.html#">Overview</a></li>
-                            <li><a href="dashboard.html#">Tab 2</a></li>
-                            <li><a href="dashboard.html#">Tab 3</a></li>
-                            <li><a href="dashboard.html#">Tab 4</a></li>
-                        </ul>
-                        <section>
-                            <section class="clearfix">
-                                <header class="grid_12 alpha omega">
-                                    <h2>Tabbed Content</h2>
-                                </header>
-                                <div class="grid_4 alpha">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam.
-                                </div>
-                                <div class="grid_4">
-                                    Morbi lacus nibh, ornare in euismod id, vulputate at sem. Duis semper rhoncus enim, nec condimentum elit sagittis et.
-                                </div>
-                                <div class="grid_4 omega">
-                                    Sed lacus nunc, gravida sed auctor vitae, faucibus ultrices erat. Vestibulum orci dui, eleifend vel sodales eu, bibendum id ipsum.
-                                </div>
-                            </section>
-                            <section class="clearfix">
-                                <header class="grid_12 alpha omega">
-                                    <h2>Tab 2</h2>
-                                </header>
-                            </section>
-                            <section class="clearfix">
-                                <header class="grid_12 alpha omega">
-                                    <h2>Tab 3</h2>
-                                </header>
-                            </section>
-                            <section class="clearfix">
-                                <header class="grid_12 alpha omega">
-                                    <h2>Tab 4</h2>
-                                </header>
-                            </section>
-                        </section>
-                    </section>
+
                     
                     <div class="clear"></div>
                     
-                    <section class="tabs side grid_12 leading">
+                    
+                    <section class="portlet grid_12 leading"> 
+                        <header>
+                                <h2>Messages</h2>
+                            </header>
+                    </section>
+
+                    <section class="tabs side grid_12">
+                        
+
                         <ul class="clearfix">
-                            <li><a href="dashboard.html#">Overview</a></li>
-                            <li><a href="dashboard.html#">Tab 2</a></li>
-                            <li><a href="dashboard.html#">Tab 3</a></li>
-                            <li><a href="dashboard.html#" title="This is a very very long tab title">This is a very very long tab title</a></li>
+                            <li><a href="dashboard.html#">Compose</a></li>
+                            <li><a href="dashboard.html#">Inbox</a></li>
+                            <li><a href="dashboard.html#">Sent</a></li>
                         </ul>
                         <section>
+
                             <section class="clearfix">
-                                <div class="grid_4 alpha">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam.
+                                <form class="form has-validation">
+
+                                <div class="clearfix">
+
+                                    <label for="form-to" class="form-label">To <em>*</em></label>
+
+                                    <div class="form-input"><input type="text" id="form-to" name="to" required="required" /></div>
+
                                 </div>
-                                <div class="grid_4">
-                                    Morbi lacus nibh, ornare in euismod id, vulputate at sem. Duis semper rhoncus enim, nec condimentum elit sagittis et.
+
+                                <div class="clearfix">
+
+                                    <label for="form-cc" class="form-label">CC</label>
+
+                                    <div class="form-input"><input type="text" id="form-cc" name="cc" /></div>
+
                                 </div>
-                                <div class="grid_4 omega">
-                                    Sed lacus nunc, gravida sed auctor vitae, faucibus ultrices erat. Vestibulum orci dui, eleifend vel sodales eu, bibendum id ipsum.
+
+                                <div class="clearfix">
+
+                                    <label for="form-subject" class="form-label">Subject <em>*</em></label>
+
+                                    <div class="form-input"><input type="text" id="form-subject" name="subject" /></div>
+
                                 </div>
+
+                                <div class="clearfix">
+
+                                    <label for="form-textarea" class="form-label">Message <em>*</em></label>
+
+                                    <div class="form-input form-textarea"><textarea id="form-textarea" required="required" rows="10"></textarea></div>
+
+                                </div>
+                                
+                                
+
+                                <div class="clearfix">
+
+                                    <label for="form-updates" class="form-label">Receive Updates?<small>Receive weekly updates</small></label>
+
+                                    <div class="form-input"><input type="checkbox" id="form-updates" value="1" /></div>
+
+                                </div>
+
+                                <div class="form-action clearfix">
+
+                                    <button class="button" type="submit" data-icon-primary="ui-icon-circle-check">send</button>
+
+                                </div>
+
+                            </form>
                             </section>
+
                             <section class="clearfix">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam.
                             </section>
+
                             <section class="clearfix">
                                 Morbi lacus nibh, ornare in euismod id, vulputate at sem. Duis semper rhoncus enim, nec condimentum elit sagittis et.
                             </section>
-                            <section class="clearfix">
-                                Sed lacus nunc, gravida sed auctor vitae, faucibus ultrices erat. Vestibulum orci dui, eleifend vel sodales eu, bibendum id ipsum.
-                            </section>
-                        </section>
-                    </section>
-                    
-                    <div class="clear"></div>
-                    
-                    <section class="accordion grid_12 leading">
-                        <header>
-                            <h2>This is an accordion</h2>
-                        </header>
-                        <section class="clearfix">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam. Aliquam sagittis mauris elit, nec pulvinar leo. Duis felis urna, cursus eget commodo sit amet, porttitor vitae est. Phasellus sit amet eros vitae odio eleifend congue ut et libero. Fusce quis dui vel sapien dapibus aliquet. Vestibulum velit tortor, aliquet vitae lacinia vitae, auctor ac dolor. Phasellus porttitor libero eu odio pretium porta. Proin nec sem ligula. Nunc tempus arcu vel urna fermentum aliquam. Nam ornare vehicula venenatis. Aenean molestie sollicitudin sodales. Cras eleifend velit sed diam sodales nec commodo risus facilisis. Proin consectetur ante non leo ultricies in volutpat justo tincidunt. Mauris scelerisque vehicula nisl eu suscipit. Cras dui erat, pellentesque quis consectetur quis, rhoncus eget ipsum. Cras suscipit fringilla aliquet. In hac habitasse platea dictumst.
-                        </section>
-                        <header>
-                            <h2>3 Column Grid inside Accordion</h2>
-                        </header>
-                        <section class="clearfix">
-                            <div class="grid_4 alpha">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam. Aliquam sagittis mauris elit, nec pulvinar leo.
-                            </div>
-                            <div class="grid_4">
-                                Duis felis urna, cursus eget commodo sit amet, porttitor vitae est. Phasellus sit amet eros vitae odio eleifend congue ut et libero. Fusce quis dui vel sapien dapibus aliquet.
-                            </div>
-                            <div class="grid_4 omega">
-                                Vestibulum velit tortor, aliquet vitae lacinia vitae, auctor ac dolor. Phasellus porttitor libero eu odio pretium porta. Proin nec sem ligula. Nunc tempus arcu vel urna fermentum aliquam.
-                            </div>
-                        </section>
-                        <header>
-                            <h2>Lorem ipsum dolor</h2>
-                        </header>
-                        <section class="clearfix">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam. Aliquam sagittis mauris elit, nec pulvinar leo. Duis felis urna, cursus eget commodo sit amet, porttitor vitae est. Phasellus sit amet eros vitae odio eleifend congue ut et libero. Fusce quis dui vel sapien dapibus aliquet. Vestibulum velit tortor, aliquet vitae lacinia vitae, auctor ac dolor. Phasellus porttitor libero eu odio pretium porta. Proin nec sem ligula. Nunc tempus arcu vel urna fermentum aliquam. Nam ornare vehicula venenatis. Aenean molestie sollicitudin sodales. Cras eleifend velit sed diam sodales nec commodo risus facilisis. Proin consectetur ante non leo ultricies in volutpat justo tincidunt. Mauris scelerisque vehicula nisl eu suscipit. Cras dui erat, pellentesque quis consectetur quis, rhoncus eget ipsum. Cras suscipit fringilla aliquet. In hac habitasse platea dictumst.
-                        </section>
-                        <header>
-                            <h2>Lorem ipsum dolor</h2>
-                        </header>
-                        <section class="clearfix">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam. Aliquam sagittis mauris elit, nec pulvinar leo. Duis felis urna, cursus eget commodo sit amet, porttitor vitae est. Phasellus sit amet eros vitae odio eleifend congue ut et libero. Fusce quis dui vel sapien dapibus aliquet. Vestibulum velit tortor, aliquet vitae lacinia vitae, auctor ac dolor. Phasellus porttitor libero eu odio pretium porta. Proin nec sem ligula. Nunc tempus arcu vel urna fermentum aliquam. Nam ornare vehicula venenatis. Aenean molestie sollicitudin sodales. Cras eleifend velit sed diam sodales nec commodo risus facilisis. Proin consectetur ante non leo ultricies in volutpat justo tincidunt. Mauris scelerisque vehicula nisl eu suscipit. Cras dui erat, pellentesque quis consectetur quis, rhoncus eget ipsum. Cras suscipit fringilla aliquet. In hac habitasse platea dictumst.
+
                         </section>
                     </section>
 
-                    <section class="portlet grid_12 leading">
-                        <header>
-                            <h2>3 Column Grid inside Portlet</h2>
-                        </header>
-                        <section class="clearfix">
-                            <div class="grid_4 alpha">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis diam, facilisis nec egestas quis, pharetra eget diam.
-                            </div>
-                            <div class="grid_4">
-                                Morbi lacus nibh, ornare in euismod id, vulputate at sem. Duis semper rhoncus enim, nec condimentum elit sagittis et.
-                            </div>
-                            <div class="grid_4 omega">
-                                Sed lacus nunc, gravida sed auctor vitae, faucibus ultrices erat. Vestibulum orci dui, eleifend vel sodales eu, bibendum id ipsum.
-                            </div>
-                        </section>
-                    </section>
+                    
+                    <div class="clear"></div>
+                    
+ 
                     
                     <div class="clear"></div>
                     
@@ -968,53 +751,11 @@
                         </section>
                     </section>
                     
-                    <section class="portlet grid_6 leading">
-                        <header>
-                            <h2>Notifications</h2>
-                        </header>
-                        <section>
-                            <div class="message info"> 
-                                <h3>Information</h3> 
-                                <p> 
-                                    This is an info message.
-                                </p> 
-                            </div> 
-                            <div class="message success"> 
-                                <h3>Success!</h3> 
-                                <p> 
-                                    This is a success message.
-                                </p> 
-                            </div> 
-                            <div class="message warning"> 
-                                <h3>Warning!</h3> 
-                                <p> 
-                                    This is a warning message.
-                                </p> 
-                            </div> 
-                            <div class="message error"> 
-                                <h3>Error!</h3> 
-                                <p> 
-                                    This is an error message.
-                                </p> 
-                            </div> 
-                        </section>
-                    </section>
+  
                     
                     <div class="clear"></div>
                     
-                    <section class="portlet grid_12 leading">
-                        <header>
-                            <h2>Header styles</h2>
-                        </header>
-                        <section>
-                            <h1>Header 1</h1>
-                            <h2>Header 2</h2>
-                            <h3>Header 3</h3>
-                            <h4>Header 4</h4>
-                            <h5>Header 5</h5>
-                            <h6>Header 6</h6>
-                        </section>
-                    </section>
+ 
                     
                     <div class="clear"></div>
                     

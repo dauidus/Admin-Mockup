@@ -32,9 +32,9 @@ fieldset.fieldset-buttons legend .ui-buttonset {
   float: left;
   font-size: 12px;
   font-weight: bold;
-  margin: 0;
+  margin: 7px 0 0 0;
   text-align: right;
-  width: 200px;
+  width: 100px;
 }
 .form .form-label small {
   color: #666666;
@@ -43,7 +43,7 @@ fieldset.fieldset-buttons legend .ui-buttonset {
   font-weight: normal;
   line-height: 11px;
   text-align: right;
-  width: 200px;
+  width: 100px;
 }
 .form .form-label em {
   color: red;
@@ -56,11 +56,11 @@ fieldset.fieldset-buttons legend .ui-buttonset {
   display: none;
 }
 .form .form-action {
-  margin-left: 210px;
+  margin-left: 110px;
 }
 .form .form-input {
   line-height: 26px;
-  margin: 2px 0 25px 210px;
+  margin: 2px 0 25px 110px;
 }
 .form .form-textarea {
   line-height: 1;
@@ -79,7 +79,7 @@ fieldset.fieldset-buttons legend .ui-buttonset {
 .form .form-input .uploader,
 .form .form-input .radiogroup {
   width: 100%;
-  max-width: 300px;
+  max-width: 800px;
 }
 .form .form-input textarea {
   position: relative;

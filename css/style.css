@@ -23,7 +23,7 @@ html {
     overflow: hidden;
 }
 body {
-    background: #EAEBFC url("../images/bg.jpg") repeat center top;
+    background: #fefefe;
     font: normal normal normal 69%/160% 'Lucida Grande', Verdana, Helvetica, Arial, sans-serif;
 }
 
@@ -135,11 +135,15 @@ small, sup, sub {
 }
 
 .leading {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .full {
     width: 100%;
+}
+
+table tr td {
+    height:20px;
 }
 
 nav ul {
@@ -194,15 +198,8 @@ body.login {
  * Header
  */
 #wrapper > header {
-	height: 40px;
+	height: 70px;
 	padding: 0 20px;
-    background-color: #abceee;
-    background-image: -o-linear-gradient(top, #abceee, #8aa8ca);
-    background-image: -ms-linear-gradient(top, #abceee, #8aa8ca);
-    background-image: -moz-linear-gradient(top, #abceee, #8aa8ca);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#abceee), to(#8aa8ca));
-    background-image: -webkit-linear-gradient(top, #abceee, #8aa8ca);
-    background-image: linear-gradient(top, #abceee, #8aa8ca);
     -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
@@ -213,13 +210,19 @@ body.login {
 
 #wrapper > header > h1 {
 	float: left;
-    font-size: 18px;
-	height: 40px;
-	line-height: 40px;
+    font-size: 22px;
+	height: 30px;
+	line-height: 20px;
 	margin: 0;
-    width: 225px;
-    text-align: right;
+    width: 300px;
+    text-align: left;
     padding-right: 25px;
+    padding-top:23px;
+}
+#wrapper > header img {
+    float: left;
+    height:60px;
+    padding:5px 15px 0 0;
 }
 
 #wrapper > header > h1 a {
@@ -229,7 +232,8 @@ body.login {
 }
 
 #wrapper > header > nav {
-    margin-left: 225px;
+    margin-left: 300px;
+    padding-top:15px;
 }
 
 /**
@@ -415,7 +419,7 @@ body.login {
  */
 #wrapper > section {
 	position: absolute;
-	top: 60px;
+	top: 70px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -556,8 +560,9 @@ body.login {
 }
 
 .bold {
-    font-weight: bold;
-    height: 20px;
+    font-weight: 700;
+    height: 25px;
+    font-size:12px;
 }
 
 p.actionbutton {
@@ -1270,7 +1275,7 @@ a.caldisabled {
  * Messages
  */
 .message {
-    padding: 10px 20px;
+    padding: 5px 20px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
